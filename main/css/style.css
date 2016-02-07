@@ -4,8 +4,8 @@
 	.page-break	{ display: none; }
 }
 
-.ui-mobile-viewport { overflow-x: visible !important;}
-.ui-content { padding:0 !important; overflow: visible !important; }
+/*.ui-mobile-viewport { overflow-x: visible !important;}*/
+.ui-content { padding:0 !important; }
 
 #employees .ui-controlgroup-controls {
 	width:100% !important;
