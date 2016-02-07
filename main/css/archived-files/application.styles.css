@@ -1,0 +1,29 @@
+#wrapper_all {
+	width:100% !important;
+}
+
+#page_display {
+	margin:0px auto;
+	background-color:#fff;
+	box-shadow:none;
+}
+
+#application_display {
+	border:none;
+	background:none;
+	box-shadow:none;
+
+}
+
+#application_display h3 {
+	margin-left:15px;
+	position:relative;
+	top:3px;
+	font-size:14px;
+	font-weight:normal;
+}
+
+#icon_45 {
+	float:left;
+	margin:10px;
+}

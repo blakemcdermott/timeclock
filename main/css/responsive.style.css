@@ -1,0 +1,58 @@
+// Responsive CSS
+
+@media (min-width: 600px) {
+	.inside-wrap, .header, #nav-menu {
+		min-width:600px;
+		margin:0px auto;
+	}
+	.header {
+		padding:0 10px;
+	}
+	#main-content {
+		margin:0px;
+	}
+	.ui-collapsible-set .ui-collapsible:not(.ui-collapsible-inset) .ui-collapsible-heading .ui-btn,
+	.ui-collapsible-themed-content .ui-collapsible-content, .ui-listview {
+	border-right:1px solid #ddd;;
+	border-left:1px solid #ddd;
+	}
+}
+
+@media (max-width: 600px) {
+	#main-content h3 { text-align:left; }
+	#main-content { 
+	width: auto; 
+	}
+	.header {
+		padding:0 10px;
+	}
+	
+	
+}
+@media (min-width: 1000px) {
+	.inside-wrap, .header, #nav-menu {
+		width:800px;
+		margin:0px auto;
+	}
+	#main-content {
+		margin:0px;
+	}
+	#popupReport { min-width: 800px; }
+	#popupReport table { width: 100%; }
+}
+@media (max-width: 1000px) {
+	.inside-wrap, .header, #nav-menu {
+		max-width:650px;
+		margin:0px auto;
+	}
+	.header {
+		padding:0 10px;
+	}
+	#main-content {
+		margin:0px;
+	}
+	
+}
+
+.ui-block-a, .ui-block-b { padding:0 1%; }
+

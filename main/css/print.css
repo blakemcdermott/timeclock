@@ -1,0 +1,24 @@
+// Print styles
+@page {size: landscape !important;}
+* { float:none !important; }
+
+#header-wrapper{display:none !important;}
+#navigation-wrapper{display:none !important;}
+#main-content{display:none !important;}
+
+#popupReport { margin:0px auto; padding:5px; }
+#popupReport-popup { top:auto !important; left:auto !important; }
+.ui-btn.ui-icon-delete { display:none !important; }
+.ui-popup-screen { display:none !important; }
+div { border:0px !important; }
+button { display:none; }
+.report-wrapper {
+	padding:10px;
+	display:block !important;
+	float:none;
+	overflow:visible !important;
+	border:1px solid #CCC !important;
+	page-break-after:always;
+	break-after:always ;
+	}
+td { border:1px solid #333 !important; }

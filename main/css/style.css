@@ -1,0 +1,191 @@
+/* Visual Styles */
+
+@media all {
+	.page-break	{ display: none; }
+}
+
+.ui-mobile-viewport { overflow-x: visible !important;}
+.ui-content { padding:0 !important; overflow: visible !important; }
+
+#employees .ui-controlgroup-controls {
+	width:100% !important;
+}
+
+#ui-datepicker-div {
+	z-index:5 !important;
+}
+
+.ui-datebox-container {
+	background-color:white;
+}
+
+#header-wrapper {
+	padding:20px 0px;
+	background-color:#2C3135;
+}
+.header h3 {
+	margin:0px;
+	text-shadow: none;-
+color:#F8F8F8;
+}
+#site-title {
+	color:#fff !important;
+}
+
+#nav-menu .ui-btn {
+	border:0px;
+	background-color:transparent;
+	margin:0px;
+
+}
+#nav-menu .ui-btn:hover {
+	background-color: #f9f9f9;
+	border:1px solid #d4e0e9;
+	border-top:0px;
+	border-bottom:0px;
+}
+#nav-menu .ui-btn-active {
+	text-shadow: 0 1px 0 #96C0E2;
+}
+#navigation-wrapper {
+	background-color: #E2EAF0;
+}
+.ui-float-right {
+	float:right;
+}
+.ui-input-search.ui-focus {
+	box-shadow:0  0 10px #ffffff;
+}
+.ui-listview-noborder {
+	border-right:0px;
+	border-left:0px;
+}
+
+#employee-table { display: table !important; }
+.ui-employee-table tr{
+	border-bottom: 1px solid #dfdfdf;
+}
+.ui-table-thead{
+	border-top:1px solid #dfdfdf;
+	border-left:1px solid #dfdfdf;
+	border-right:1px solid #dfdfdf;
+	background-color: #F0F0F0;
+}
+.ui-mini-icon{
+	width:24px;
+	height:24px;
+	font-size:5px;
+}
+.ui-vertical-middle {
+	vertical-align:middle !important;
+}
+.ui-li-divider.ui-bar-a {
+	background-color:#FFFA8B
+}
+.ui-bar.ui-bar-d {
+	background-color: #A9FCDA;
+	border-color: #76E6B4;
+}
+.ui-bar.ui-bar-d:hover {
+	background-color: #CDFDEA;
+}
+.ui-bar.ui-bar-e {
+	background-color: #FF8E8E;
+	border-color: #E46363;
+}
+.ui-bar-e:hover {
+	background-color: #FFC3C3
+}
+
+a{
+	text-decoration:none;
+}
+
+#response {
+	height:700px;
+	overflow:auto;
+	border:1px solid #EAEAEA;
+}
+#response-close {
+	display:none;
+}
+
+.report-options .no-margin {
+	margin:0px;
+}
+
+.report-wrapper {
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid #E9E9E9;
+}
+
+.report-wrapper thead th {
+	font-size:.90em;
+}
+
+.report-wrapper td {
+	text-align:center;
+	border:1px solid #CCC;
+	padding: 2px 8px;
+}
+
+.report-wrapper td .right-border {
+	border-right:1px solid #ccc;
+}
+
+.report-wrapper td a {
+	font-size:.85em;
+}
+
+.report-wrapper span {
+	color:#727272;
+}
+
+.import-report { border-collapse:collapse !important; }
+
+.import-report td {
+	border-top:1px solid #D2D2D2;
+	padding:3px 5px;
+	margin:0px;
+}
+
+.import-report th {
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+	padding:5px;
+}
+
+.report-wrapper .report-time-options {
+	font-weight:bold;font-size:12px;color:#F90;vertical-align: top;
+}
+
+#all-records .ui-first-child a {
+	background-color:#B5FFCF !important;
+}
+
+
+.salaried-input-fields .ui-input-text { margin:0px 0px 0px 5px !important; width:100px !important;  }
+.ui-field-contain .salaried-input-fields { margin:.5em 0 !important;}
+
+.confidential-time-entry .ui-li-divider {
+	padding: .75em 1.143em !important;
+	font-size: 16px !important;
+}
+.confidential-time-entry .ui-li-count {
+	font-size: 15.5px !important;
+	font-weight: 500 !important;
+}
+
+.confidential-time-entry>li {
+	clear: both;
+}
+.confidential-time-entry li a {
+	float:right;
+}
+
+.qr-wrapper { max-width: 130px; }
+
+.clocked-in { background-color:#D7FFD9 !important; }
+.clocked-out { background-color:#FFCACA !important; }

@@ -1,0 +1,13 @@
+/* Put your custom CSS here */
+.ui-title {
+	margin-right:10% !important;
+	margin-left:10% !important;
+}
+
+.ui-mobile .ui-page {
+	min-height: 0px !important;
+}
+
+.ui-grid-a {
+	width: 100% !important;
+}
